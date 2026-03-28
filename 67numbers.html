@@ -323,7 +323,7 @@ btn.addEventListener('click',e=>{
 (function(){
   const btnNum = document.getElementById('btn-num');
   let stepsSince67 = 0;
-  const MIN_INTERVAL = 10, MAX_INTERVAL = 15;
+  const MIN_INTERVAL = 3, MAX_INTERVAL = 6;
   let nextAppearAt = MIN_INTERVAL + Math.floor(Math.random()*(MAX_INTERVAL-MIN_INTERVAL+1));
 
   function nextNumber(){
